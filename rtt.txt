@@ -1,0 +1,120 @@
+started from statistics-collector.hpp then found pipeline-interest-adaptive.cpp
+
+in pipeline-interest-adaptive.cpp
+
+on line 436
+
+PipelineInterestsAdaptive::printSummary() const
+{
+  PipelineInterests::printSummary();
+  std::cerr << "Congestion marks: " << m_nCongMarks << " (caused " << m_nMarkDecr << " window decreases)\n"
+            << "Timeouts: " << m_nTimeouts << " (caused " << m_nLossDecr << " window decreases)\n"
+            << "Retransmitted segments: " << m_nRetransmitted
+            << " (" << (m_nSent == 0 ? 0 : (m_nRetransmitted * 100.0 / m_nSent)) << "%)"
+            << ", skipped: " << m_nSkippedRetx << "\n"
+            << "RTT ";
+
+  if (m_rttEstimator.getMinRtt() == time::nanoseconds::max() ||
+      m_rttEstimator.getMaxRtt() == time::nanoseconds::min()) {
+    std::cerr << "stats unavailable\n";
+  }
+  else {
+    std::cerr << "min/avg/max = " << std::fixed << std::setprecision(3)
+              << m_rttEstimator.getMinRtt().count() / 1e6 << "/"
+              << m_rttEstimator.getAvgRtt().count() / 1e6 << "/"
+              << m_rttEstimator.getMaxRtt().count() / 1e6 << " ms\n";
+  }
+}
+
+
+
+
+when searched for m_rttEstimator
+
+found   RttEstimatorWithStats& m_rttEstimator;
+in 195 in pipeline-interest-adaptive.hpp
+
+
+
+getMinRtt() is in rtt-estimator.hpp 
+
+on line 146
+  void
+  addMeasurement(time::nanoseconds rtt, size_t nExpectedSamples = 1);
+
+  /**
+   * @brief Returns the minimum RTT observed.
+   */
+
+  time::nanoseconds
+  getMinRtt() const
+  {
+    return m_rttMin;
+  }
+
+  /**
+   * @brief Returns the maximum RTT observed.
+   */
+  time::nanoseconds
+  getMaxRtt() const
+  {
+    return m_rttMax;
+  }
+
+
+so checked out m_rttmin in RttEstimatorWithStats in rtt-estimator.hpp
+
+void
+RttEstimatorWithStats::addMeasurement(time::nanoseconds rtt, size_t nExpectedSamples)
+{
+  RttEstimator::addMeasurement(rtt, nExpDEFAULT_INTEREST_LIFETIMEectedSamples);
+
+  m_rttAvg = (m_nRttSamples * m_rttAvg + rtt) / (m_nRttSamples + 1);
+  m_rttMax = std::max(rtt, m_rttMax);
+  m_rttMin = std::min(rtt, m_rttMin);
+  m_nRttSamples++;
+}
+
+
+rtt value is passed in pipeline-interests-adaptive.cpp
+
+inside function PipelineInterestsAdaptive::handleData(const Interest& interest, const Data& data)
+{
+
+	calculated using  time::nanoseconds rtt = time::steady_clock::now() - segInfo.timeSent;
+	on line 238
+
+
+
+
+	if ((segInfo.state == SegmentState::FirstTimeSent ||
+       		segInfo.state == SegmentState::InRetxQueue) &&
+      		m_retxCount.count(recvSegNo) == 0) {
+    		auto nExpectedSamples = std::max<int64_t>((m_nInFlight + 1) >> 1, 1);
+   		 BOOST_ASSERT(nExpectedSamples > 0);
+
+    		m_rttEstimator.addMeasurement(rtt, static_cast<size_t>(nExpectedSamples));
+    		
+  }
+
+
+segmentInfo struct is defined in pipeline-interests-adaptive.hpp on line 59
+
+struct SegmentInfo
+{
+  ScopedPendingInterestHandle interestHdl;
+  time::steady_clock::TimePoint timeSent;
+  time::nanoseconds rto;
+  SegmentState state;
+};
+
+
+in pipeline-interests-adaptive.cpp
+inside the function "PipelineInterestsAdaptive::sendInterest(uint64_t segNo, bool isRetransmission)" interest's sent time is recorded
+
+on line 169
+segInfo.timeSent = time::steady_clock::now();
+
+
+
+https://docs.google.com/document/d/1ayd1DnobTZKptv5Aax25tD6zGNhTV0lUoxZ1OiKKKEI/edit?usp=sharing

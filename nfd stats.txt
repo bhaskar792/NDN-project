@@ -1,0 +1,39 @@
+File Size    :35 kB
+File type    :text
+time         :0.017 sec
+segments     :8
+Retransmitted:0
+segments
+skipped      :0
+Timeouts     :0
+
+
+File Size    :4093 kB (4 MB)
+File Type    :binary
+time         :169.6 secs
+segments     :931
+Retransmitted:662
+segments
+skipped      :2
+timeouts     :664
+
+
+File Size    :59120 kB
+File Type    :video
+time         :2259.79 secs
+segments     :13437
+Retransmitted:7780
+segments
+skipped      :17
+timeouts     :7797
+
+
+
+File Size    :73573 kB
+File Type    :text
+time         :2514.17 secs
+segments     :16722
+Retransmitted:11524
+segments
+skipped      :35
+timeouts     :11559

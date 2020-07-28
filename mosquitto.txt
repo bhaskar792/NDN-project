@@ -1,0 +1,334 @@
+line 62 send thread_mosq.c
+	send(mosq->sockpairW, &sockpair_data, 1, 0);
+
+
+
+
+line 174 send packet_mosq.c
+send(mosq->sockpairW, &sockpair_data, 1, 0);
+
+
+
+
+line 934 send net_mosq.c
+ send(mosq->sock, buf, count, 0);
+
+
+
+line 211 sockpairW mosquitto_internal
+
+	mosq_sock_t sockpairR, sockpairW;
+
+2 declaration of mosquitto
+
+
+1st declaration in mosquitto_internal.h line 208
+
+
+struct mosquitto {
+	mosq_sock_t sock;
+#ifndef WITH_BROKER
+	mosq_sock_t sockpairR, sockpairW;
+#endif
+#if defined(__GLIBC__) && defined(WITH_ADNS)
+	struct gaicb *adns; /* For getaddrinfo_a */
+#endif
+	enum mosquitto__protocol protocol;
+	char *address;
+	char *id;
+	char *username;
+	char *password;
+	uint16_t keepalive;
+	uint16_t last_mid;
+	enum mosquitto_client_state state;
+	time_t last_msg_in;
+	time_t next_msg_out;
+	time_t ping_t;
+	struct mosquitto__packet in_packet;
+	struct mosquitto__packet *current_out_packet;
+	struct mosquitto__packet *out_packet;
+	struct mosquitto_message_all *will;
+	struct mosquitto__alias *aliases;
+	struct will_delay_list *will_delay_entry;
+	uint32_t maximum_packet_size;
+	int alias_count;
+	uint32_t will_delay_interval;
+	time_t will_delay_time;
+#ifdef WITH_TLS
+	SSL *ssl;
+	SSL_CTX *ssl_ctx;
+	char *tls_cafile;
+	char *tls_capath;
+	char *tls_certfile;
+	char *tls_keyfile;
+	int (*tls_pw_callback)(char *buf, int size, int rwflag, void *userdata);
+	char *tls_version;
+	char *tls_ciphers;
+	char *tls_psk;
+	char *tls_psk_identity;
+	int tls_cert_reqs;
+	bool tls_insecure;
+	bool ssl_ctx_defaults;
+	bool tls_ocsp_required;
+	char *tls_engine;
+	char *tls_engine_kpass_sha1;
+	enum mosquitto__keyform tls_keyform;
+	char *tls_alpn;
+#endif
+	bool want_write;
+	bool want_connect;
+#if defined(WITH_THREADING) && !defined(WITH_BROKER)
+	pthread_mutex_t callback_mutex;
+	pthread_mutex_t log_callback_mutex;
+	pthread_mutex_t msgtime_mutex;
+	pthread_mutex_t out_packet_mutex;
+	pthread_mutex_t current_out_packet_mutex;
+	pthread_mutex_t state_mutex;
+	pthread_mutex_t mid_mutex;
+	pthread_t thread_id;
+#endif
+	bool clean_start;
+	uint32_t session_expiry_interval;
+	time_t session_expiry_time;
+#ifdef WITH_BROKER
+	bool removed_from_by_id; /* True if removed from by_id hash */
+	bool is_dropping;
+	bool is_bridge;
+	struct mosquitto__bridge *bridge;
+	struct mosquitto_msg_data msgs_in;
+	struct mosquitto_msg_data msgs_out;
+	struct mosquitto__acl_user *acl_list;
+	struct mosquitto__listener *listener;
+	struct mosquitto__packet *out_packet_last;
+	struct mosquitto__subhier **subs;
+	struct mosquitto__subshared_ref **shared_subs;
+	char *auth_method;
+	int sub_count;
+	int shared_sub_count;
+	int pollfd_index;
+#  ifdef WITH_WEBSOCKETS
+#    if defined(LWS_LIBRARY_VERSION_NUMBER)
+	struct lws *wsi;
+#    else
+	struct libwebsocket_context *ws_context;
+	struct libwebsocket *wsi;
+#    endif
+#  endif
+	bool ws_want_write;
+	bool assigned_id;
+#else
+#  ifdef WITH_SOCKS
+	char *socks5_host;
+	int socks5_port;
+	char *socks5_username;
+	char *socks5_password;
+#  endif
+	void *userdata;
+	bool in_callback;
+	struct mosquitto_msg_data msgs_in;
+	struct mosquitto_msg_data msgs_out;
+	void (*on_connect)(struct mosquitto *, void *userdata, int rc);
+	void (*on_connect_with_flags)(struct mosquitto *, void *userdata, int rc, int flags);
+	void (*on_connect_v5)(struct mosquitto *, void *userdata, int rc, int flags, const mosquitto_property *props);
+	void (*on_disconnect)(struct mosquitto *, void *userdata, int rc);
+	void (*on_disconnect_v5)(struct mosquitto *, void *userdata, int rc, const mosquitto_property *props);
+	void (*on_publish)(struct mosquitto *, void *userdata, int mid);
+	void (*on_publish_v5)(struct mosquitto *, void *userdata, int mid, int reason_code, const mosquitto_property *props);
+	void (*on_message)(struct mosquitto *, void *userdata, const struct mosquitto_message *message);
+	void (*on_message_v5)(struct mosquitto *, void *userdata, const struct mosquitto_message *message, const mosquitto_property *props);
+	void (*on_subscribe)(struct mosquitto *, void *userdata, int mid, int qos_count, const int *granted_qos);
+	void (*on_subscribe_v5)(struct mosquitto *, void *userdata, int mid, int qos_count, const int *granted_qos, const mosquitto_property *props);
+	void (*on_unsubscribe)(struct mosquitto *, void *userdata, int mid);
+	void (*on_unsubscribe_v5)(struct mosquitto *, void *userdata, int mid, const mosquitto_property *props);
+	void (*on_log)(struct mosquitto *, void *userdata, int level, const char *str);
+	//void (*on_error)();
+	char *host;
+	int port;
+	char *bind_address;
+	unsigned int reconnects;
+	unsigned int reconnect_delay;
+	unsigned int reconnect_delay_max;
+	bool reconnect_exponential_backoff;
+	char threaded;
+	struct mosquitto__packet *out_packet_last;
+#  ifdef WITH_SRV
+	ares_channel achan;
+#  endif
+#endif
+	uint8_t maximum_qos;
+
+#ifdef WITH_BROKER
+	UT_hash_handle hh_id;
+	UT_hash_handle hh_sock;
+	struct mosquitto *for_free_next;
+	struct session_expiry_list *expiry_list_item;
+#endif
+#ifdef WITH_EPOLL
+	uint32_t events;
+#endif
+};
+
+#define STREMPTY(str) (str[0] == '\0')
+
+void do_client_disconnect(struct mosquitto *mosq, int reason_code, const mosquitto_property *properties);
+
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+line 92 mosquitto.c mosq=(struct mosquitto *)mosquitto__calloc(1, sizeof(struct mosquitto));
+
+
+struct mosquitto *mosquitto_new(const char *id, bool clean_start, void *userdata)
+{
+	struct mosquitto *mosq = NULL;
+	int rc;
+
+	if(clean_start == false && id == NULL){
+		errno = EINVAL;
+		return NULL;
+	}
+
+#ifndef WIN32
+	signal(SIGPIPE, SIG_IGN);
+#endif
+
+	mosq = (struct mosquitto *)mosquitto__calloc(1, sizeof(struct mosquitto));
+	if(mosq){
+		mosq->sock = INVALID_SOCKET;
+		mosq->sockpairR = INVALID_SOCKET;
+		mosq->sockpairW = INVALID_SOCKET;
+#ifdef WITH_THREADING
+		mosq->thread_id = pthread_self();
+#endif
+		rc = mosquitto_reinitialise(mosq, id, clean_start, userdata);
+		if(rc){
+			mosquitto_destroy(mosq);
+			if(rc == MOSQ_ERR_INVAL){
+				errno = EINVAL;
+			}else if(rc == MOSQ_ERR_NOMEM){
+				errno = ENOMEM;
+			}
+			return NULL;
+		}
+	}else{
+		errno = ENOMEM;
+	}
+	return mosq;
+}
+
+
+
+
+
+line 208 struct mosquitto on mosquitto_internal.h on line 325 host and port
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+packet__queue
+
+int packet__queue(struct mosquitto *mosq, struct mosquitto__packet *packet)
+{
+#ifndef WITH_BROKER
+	char sockpair_data = 0;
+#endif
+	assert(mosq);
+	assert(packet);
+
+	packet->pos = 0;
+	packet->to_process = packet->packet_length;
+
+	packet->next = NULL;
+	pthread_mutex_lock(&mosq->out_packet_mutex);
+	if(mosq->out_packet){
+		mosq->out_packet_last->next = packet;
+	}else{
+		mosq->out_packet = packet;
+	}
+	mosq->out_packet_last = packet;
+	pthread_mutex_unlock(&mosq->out_packet_mutex);
+#ifdef WITH_BROKER
+#  ifdef WITH_WEBSOCKETS
+	if(mosq->wsi){
+		libwebsocket_callback_on_writable(mosq->ws_context, mosq->wsi);
+		return MOSQ_ERR_SUCCESS;
+	}else{
+		return packet__write(mosq);
+	}
+#  else
+	return packet__write(mosq);
+#  endif
+#else
+
+	/* Write a single byte to sockpairW (connected to sockpairR) to break out
+	 * of select() if in threaded mode. */
+	if(mosq->sockpairW != INVALID_SOCKET){
+#ifndef WIN32
+		if(write(mosq->sockpairW, &sockpair_data, 1)){
+		}
+#else
+		send(mosq->sockpairW, &sockpair_data, 1, 0);
+#endif
+	}
+
+	if(mosq->in_callback == false && mosq->threaded == mosq_ts_none){
+		return packet__write(mosq);
+	}else{
+		return MOSQ_ERR_SUCCESS;
+	}
+#endif
+}
+
+
+
+
+struct mosquitto__packet is defined in mosquitto_internal.h line 150
+struct mosquitto__packet{
+	uint8_t *payload;
+	struct mosquitto__packet *next;
+	uint32_t remaining_mult;
+	uint32_t remaining_length;
+	uint32_t packet_length;
+	uint32_t to_process;
+	uint32_t pos;
+	uint16_t mid;
+	uint8_t command;
+	int8_t remaining_count;
+};
+
+
+mosquitto declaration shown above
+
+
+
+its basically a linked list mosquitto__packet
+
+declared in struct mosquitto declaration
+struct mosquitto__packet in_packet;
+	struct mosquitto__packet *current_out_packet;
+	struct mosquitto__packet *out_packet;
+
+

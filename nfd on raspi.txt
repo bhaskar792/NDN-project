@@ -1,0 +1,24 @@
+Trying on raspberry pi 4 model B 1GB ram version
+using Raspbian buster lite downloaded from official site
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install clang(which install clang version 7)
+sudo apt-get install git build-essential pkg-config libboost1.62-all-dev
+sudo apt-get install libsqlite3-dev libssl-dev libpcap-dev
+sudo apt-get install doxygen graphviz python-sphinx
+
+git clone https://github.com/named-data/ndn-cxx.git
+cd ndn-cxx
+CXX=clang++ ./waf configure
+./waf
+sudo ./waf install
+sudo ldconfig
+cd ..
+git clone https://github.com/named-data/NFD.git
+cd NFD
+CXX=clang++ ./waf configure
+./waf
+sudo ./waf install
+
+sudo cp /usr/local/etc/ndn/nfd.conf.sample /usr/local/etc/ndn/nfd.conf

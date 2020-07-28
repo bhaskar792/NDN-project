@@ -1,0 +1,57 @@
+searched for "Goodput:" and its just in pipeline-interests.cpp
+
+
+
+on line 125 in pipeline-interests.cpp
+
+PipelineInterests::printSummary() const
+{
+  using namespace ndn::time;
+  duration<double, seconds::period> timeElapsed = steady_clock::now() - getStartTime();
+  double throughput = 8 * m_receivedSize / timeElapsed.count();
+
+  std::cerr << "\n\nAll segments have been received.\n"
+            << "Time elapsed: " << timeElapsed << "\n"
+            << "Segments received: " << m_nReceived << "\n"
+            << "Transferred size: " << m_receivedSize / 1e3 << " kB" << "\n"
+            << "Goodput: " << formatThroughput(throughput) << "\n";
+}
+
+std::string
+PipelineInterests::formatThroughput(double throughput)
+{
+  int pow = 0;
+  while (throughput >= 1000.0 && pow < 4) {
+    throughput /= 1000.0;
+    pow++;
+  }
+  switch (pow) {
+    case 0:
+      return to_string(throughput) + " bit/s";
+    case 1:
+      return to_string(throughput) + " kbit/s";
+    case 2:
+      return to_string(throughput) + " Mbit/s";
+    case 3:
+      return to_string(throughput) + " Gbit/s";
+    case 4:
+      return to_string(throughput) + " Tbit/s";
+  }
+  return "";
+}
+
+
+this printSummary() may be the same kinda function which is there in pipeline-interests-adaptive.cpp
+
+m_recievedSize is in the same file pipeline-interests.cpp line 93
+
+PipelineInterests::onData(const Data& data)
+{
+  m_nReceived++;
+  m_receivedSize += data.getContent().value_size();
+
+  m_onData(data);
+}
+
+
+https://docs.google.com/document/d/1i7AEUdRwnlEWa1D_6QKlUm2rN4SDkWNHozEC_VTmdvA/edit?usp=sharing

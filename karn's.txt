@@ -1,0 +1,38 @@
+INTRO
+Karn's Algorithm improves the round trip time (RTT) estimation accuracy when sending data
+using the Transmission Control Protocol (TCP).
+
+More specifically, Karn's Algorithm isolates smoothed round trip time (SRTT) calculations 
+from the retransmission ambiguity problem, while still enabling retransmission timeouts (RTO)
+to respond to increases in RTT and other network issues, by scaling out retransmissions timers.
+
+
+
+RETRANSMISSION AMBIGUITY
+The retransmission ambiguity problem occurs when a sender has retransmitted a packet and
+receives an acknowledgement (ACK) for the data. The sender cannot be certain whether the 
+ACK received was for the original (presumed lost) packet or for the resent packet. If 
+receiver is acknowledging (ACK) the original packet, the RTT sample is significantly longer 
+than the current SRTT value. If the receiver is acknowledging (ACK) the retransmitted packet, 
+RTT is likely closer to the current SRTT value and the original packet or ACK was lost.
+
+
+
+KARN's ALGORITHM
+The first part of Karn's Algorithm states that when there is retransmission ambiguity, 
+RTT measurements are ignored instead of being incorporated into SRTT to avoid skewing SRTT 
+incorrectly.
+
+So basically Karn's alogrithm throws away unreliable data that might skew the system's
+round-trip time estimate.
+
+For each retransmission, TCP applies a "backoff factor" to each RTO, so subsequent 
+retransmission timers are double the previous. The backoff factor is not reset until there 
+is a successful data transmit that does not require a retransmission. Combined, these 
+algorithms represent the second part of Karn's Algorithm. This process ensures that the 
+network is not flooded with duplicate packets, allowing it to recover from potential 
+congestion issues. It also guarantees useful RTT information is not discarded. According to 
+the first part of Karn's Algorithm, all of the RTT measurements during the RTO backoff are 
+ignored because data is retransmitted. When data is sent successfully without retransmission, 
+the corresponding RTT measurement, which likely tracks closely to the current RTO value, 
+can be incorporated into SRTT.

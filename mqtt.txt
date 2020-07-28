@@ -1,0 +1,24 @@
+(on both ubuntu and raspi so anyone can publish and act as a broker)
+sudo apt-get install mosquitto(install broker)
+sudo apt-get install mosquitto-clients
+
+may be not reqd{
+sudo vim /etc/mosquitto/mosquitto.conf
+
+add following to the code
+{
+allow_anonymous false
+password_file /etc/mosquitto/pwfile
+listener 1183
+}(without braces)
+
+
+sudo mosquitto_passwd -c /etc/mosquitto/pwfile username
+(choose password) (current toor)
+}
+sudo reboot
+
+
+mosquitto_sub -h 192.168.137.180 -t topic
+mosquittp_pub -t topic -m "message"
+

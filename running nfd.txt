@@ -1,0 +1,18 @@
+installed ndn-tools on both raspi and ubuntu vm
+using git clone https://github.com/named-data/ndn-tools.git
+cd ndn-tools
+CXX=clang++ ./waf configure
+./waf
+sudo ./waf install
+
+both ubuntu and raspi are connected on same wifi network
+
+on RASPI
+nfd-start
+ndnputchunks /localhost2/demo/gpl3 < /usr/share/common-licenses/GPL-3(followed from ndn-tools documentation https://github.com/named-data/ndn-tools/tree/master/tools/chunks)
+
+
+on Ubuntu
+nfd-start
+nfdc route add /localhost2/demo/gpl3 257(257 is face id for wlan0 as they connected on wifi (remote=ether://...) line),(/localhost2/demo/gpl3 as new route is made for this so add this as argument)
+ndncatchunks /localhost2/demo/gpl3

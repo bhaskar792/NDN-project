@@ -1,0 +1,41 @@
+a PSync Interest message from each consumer carries the consumer’s subscription information and 
+previously received producer state, so that the producer has all the information needed to
+ process the message without having to keep track of every consumer.
+
+
+because producers do not maintain state about consumers, each consumer can synchronize with any 
+producer among a group of producers that replicate the same data
+
+
+
+efﬁcient data representations such as Bloom Filters (BF) [6] and ranges are used to encode
+ consumers’ subscriptions so only one PSync Interest message is sent 
+from each consumer, irrespective of the number of subscribed name preﬁxes. 
+
+
+
+ The Sync Interest contains the consumer’s subscription list in its interest name (not payload) 
+which is used by the producer to check for updates to the subscribed data.
+
+
+
+PSync uses regular NDN interest and data messages for subscription and notiﬁcation. We call 
+these messages Sync Interest and Sync Reply, whose names begin with a routable 
+preﬁx to reach the producer(s) and a component for demultiplexing, e.g., /hroutable-preﬁxi/psync 
+
+
+Each consumer sends Sync Interests to the producer in order to learn about newly produced 
+data in their subscribed data streams. If any data stream in the consumer’s subscription list 
+has new data items, the producer will generate a Sync Reply to the consumer containing a 
+list of new data names in the subscribed data streams 
+
+Upon receiving the Sync Reply, which contains a list of new data names, the consumer will 
+further check whether the data namesindeedbelongtoitsownsubscriptionlist.Ifadataname is a 
+false positive, which means the producer returned a data name to which the consumer has not 
+subscribed, then the name is ignored by the consumer. Otherwise, the consumer sends an Interest
+ to the producer to fetch the new data and the producer or an intermediate cache will return the
+ data (Step 3 and 4 in Figure6).Ifnonewdatamatchingtheconsumer’ssubscription list has been
+ produced when the Sync Interest is received, the Interest will be maintained by the producer
+ separately from the PIT in the NDN forwarder. The producer will respond immediately if any
+ subscribed data stream has new data before the Interest expires. When the interest expires, 
+the consumer will send a new Sync Interest.

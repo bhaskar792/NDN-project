@@ -1,0 +1,3 @@
+C:/Users/bhask/Desktop/ndn/cmake-build-debug/CMakeFiles/ndn.dir
+C:/Users/bhask/Desktop/ndn/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bhask/Desktop/ndn/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ndn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/bhask/Desktop/ndn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ndn">
+				<Option output="C:/Users/bhask/Desktop/ndn/cmake-build-debug/ndn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bhask/Desktop/ndn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/bhask/Desktop/ndn/."/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/detail"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/nonstd"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/tpm"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/transport"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/core"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tests"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/putchunks"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dissect"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dump"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpeek"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpoke"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/core"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/common"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/face"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/table"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/other"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/other/fw"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/tools"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig-server"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 ndn"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ndn/fast">
+				<Option output="C:/Users/bhask/Desktop/ndn/cmake-build-debug/ndn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bhask/Desktop/ndn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/bhask/Desktop/ndn/."/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/detail"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/impl"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/nonstd"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/tpm"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/transport"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/core"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tests"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/putchunks"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dissect"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dump"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpeek"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpoke"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/core"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/common"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/face"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/daemon/table"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/other"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/other/fw"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/tools"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig-server"/>
+					<Add directory="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 ndn/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/bhask/Desktop/ndn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/bhask/Desktop/ndn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bhask/Desktop/ndn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/core/algorithm.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/core/common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/core/network.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/core/network.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/city-hash.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/city-hash.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/config-file.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/config-file.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/counter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/global.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/global.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/logger.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/privilege-helper.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/common/privilege-helper.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/channel-log.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/channel.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/channel.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/datagram-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-channel.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-channel.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-factory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-factory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-protocol.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-protocol.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/ethernet-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face-counters.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face-counters.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face-endpoint.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face-system.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face-system.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/generic-link-service.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/generic-link-service.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/internal-face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/internal-face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/internal-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/internal-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/link-service.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/link-service.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/lp-fragmenter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/lp-fragmenter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/lp-reassembler.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/lp-reassembler.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/lp-reliability.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/lp-reliability.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/multicast-ethernet-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/multicast-ethernet-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/multicast-udp-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/multicast-udp-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/netdev-bound.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/netdev-bound.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/network-predicate.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/network-predicate.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/null-face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/null-face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/null-link-service.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/null-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/null-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/pcap-helper.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/pcap-helper.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/protocol-factory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/protocol-factory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/socket-utils.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/socket-utils.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/stream-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/tcp-channel.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/tcp-channel.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/tcp-factory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/tcp-factory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/tcp-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/tcp-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/udp-channel.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/udp-channel.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/udp-factory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/udp-factory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/udp-protocol.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/udp-protocol.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unicast-ethernet-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unicast-ethernet-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unicast-udp-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unicast-udp-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unix-stream-channel.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unix-stream-channel.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unix-stream-factory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unix-stream-factory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unix-stream-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/unix-stream-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocket-channel.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocket-channel.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocket-factory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocket-factory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocket-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocket-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/face/websocketpp.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/access-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/access-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/algorithm.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/algorithm.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/asf-measurements.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/asf-measurements.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/asf-probing-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/asf-probing-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/asf-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/asf-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/best-route-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/best-route-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/best-route-strategy2.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/best-route-strategy2.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/face-table.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/face-table.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/forwarder-counters.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/forwarder.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/forwarder.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/multicast-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/multicast-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/ncc-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/ncc-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/process-nack-traits.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/process-nack-traits.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/random-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/random-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/retx-suppression-exponential.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/retx-suppression-exponential.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/retx-suppression-fixed.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/retx-suppression-fixed.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/retx-suppression.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/scope-prefix.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/scope-prefix.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/self-learning-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/self-learning-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/strategy-info.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/unsolicited-data-policy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/fw/unsolicited-data-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/command-authenticator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/command-authenticator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/cs-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/cs-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/face-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/face-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/fib-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/fib-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/forwarder-status-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/forwarder-status-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/general-config-section.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/general-config-section.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/log-config-section.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/log-config-section.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/manager-base.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/manager-base.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/rib-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/rib-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/strategy-choice-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/strategy-choice-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/tables-config-section.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/mgmt/tables-config-section.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/nfd.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/nfd.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/fib-update.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/fib-update.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/fib-updater.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/fib-updater.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/client-to-nlsr-readvertise-policy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/client-to-nlsr-readvertise-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/host-to-gateway-readvertise-policy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/host-to-gateway-readvertise-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/nfd-rib-readvertise-destination.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/nfd-rib-readvertise-destination.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/readvertise-destination.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/readvertise-destination.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/readvertise-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/readvertise.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/readvertise.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/readvertise/readvertised-route.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib-update-batch.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib-update-batch.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib-update.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib-update.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/rib.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/route.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/route.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/service.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/rib/service.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cleanup.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cleanup.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-policy-lru.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-policy-lru.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-policy-priority-fifo.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-policy-priority-fifo.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-policy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/cs.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/dead-nonce-list.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/dead-nonce-list.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/fib-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/fib-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/fib-nexthop.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/fib.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/fib.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/measurements-accessor.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/measurements-accessor.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/measurements-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/measurements.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/measurements.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree-hashtable.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree-hashtable.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree-iterator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree-iterator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/name-tree.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/network-region-table.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/network-region-table.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-face-record.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-face-record.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-in-record.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-in-record.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-iterator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-iterator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-out-record.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit-out-record.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/pit.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/strategy-choice-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/strategy-choice-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/strategy-choice.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/strategy-choice.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/daemon/table/strategy-info-host.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/boost-multi-log-formatter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/boost-test.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/check-typeid.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/clock-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/clock-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/core/algorithm.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/core/ndebug.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/core/network.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/core/version.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/common/config-file.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/common/counter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/common/global.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/common/privilege-helper.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/channel-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/datagram-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/dummy-face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/dummy-face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/dummy-link-service.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/dummy-link-service.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/dummy-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/ethernet-channel.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/ethernet-factory.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/ethernet-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/face-system-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/face-system.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/factory-test-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/generic-link-service.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/internal-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/lp-fragmenter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/lp-reassembler.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/lp-reliability.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/multicast-ethernet-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/multicast-udp-transport-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/multicast-udp-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/netdev-bound.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/network-predicate.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/null-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/stream-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/tcp-channel-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/tcp-channel.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/tcp-factory.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/tcp-transport-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/tcp-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/tcp-udp-channel.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/test-ip.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/test-ip.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/test-netif.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/test-netif.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/transport-test-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/udp-channel-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/udp-factory.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unicast-ethernet-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unicast-udp-transport-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unicast-udp-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unix-stream-channel.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unix-stream-factory.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unix-stream-transport-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/unix-stream-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/websocket-channel-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/websocket-channel.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/websocket-factory.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/websocket-transport-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/face/websocket-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/access-strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/ad-hoc-forwarding.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/algorithm.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/asf-measurements.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/asf-strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/best-route-strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/best-route-strategy2.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/broadcast-medium.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/choose-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/dummy-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/dummy-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/face-table.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/forwarder.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/forwarding-hint.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/multicast-strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/ncc-strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/pit-expiry.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/pit-token.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/random-strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/retx-suppression.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy-instantiation.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy-nack-return.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy-newnexthop.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy-no-route.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy-scope-control.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy-tester.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/strategy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/topology-tester.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/topology-tester.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/fw/unsolicited-data-policy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/global-io-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/global-io-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/limited-io.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/limited-io.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/command-authenticator.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/cs-manager.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/face-manager-command-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/face-manager-command-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/face-manager-create-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/face-manager-update-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/face-manager.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/fib-manager.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/forwarder-status-manager.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/general-config-section.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/manager-base.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/manager-common-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/manager-common-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/rib-manager-sl-announce.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/rib-manager.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/strategy-choice-manager.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/mgmt/tables-config-section.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib-io-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib-io-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/create-route.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/fib-updates-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/fib-updates-erase-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/fib-updates-new-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/fib-updates-new-namespace.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/fib-updates-update-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/readvertise/client-to-nlsr-readvertise-policy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/readvertise/host-to-gateway-readvertise-policy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/readvertise/nfd-rib-readvertise-destination.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/readvertise/readvertise.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/rib-entry.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/rib-update.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/rib.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/route.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/rib/service.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/cleanup.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/cs-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/cs-policy-lru.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/cs-policy-priority-fifo.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/cs.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/dead-nonce-list.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/fib.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/measurements-accessor.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/measurements.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/name-tree.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/network-region-table.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/pit-entry.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/pit.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/strategy-choice.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/daemon/table/strategy-info-host.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/global-configuration.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/key-chain-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/key-chain-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/other/benchmark-helpers.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/other/cs-benchmark.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/other/face-benchmark.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/other/fw/congestion-mark-strategy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/other/fw/congestion-mark-strategy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/other/pit-fib-benchmark.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/test-common.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/test-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/mock-nfd-mgmt-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/ndn-autoconfig-server/program.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/ndn-autoconfig/multicast-discovery.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/ndn-autoconfig/procedure.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/channel-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/command-definition.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/command-parser.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/cs-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/execute-command-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/face-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/fib-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/format-helpers.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/forwarder-general-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/help.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/mock-nfd-mgmt-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/rib-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/status-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/status-report.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tests/tools/nfdc/strategy-choice-module.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig-server/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig-server/program.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig-server/program.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/dns-srv.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/dns-srv.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/guess-from-identity-name.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/guess-from-identity-name.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/guess-from-search-domains.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/guess-from-search-domains.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/multicast-discovery.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/multicast-discovery.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/ndn-fch-discovery.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/ndn-fch-discovery.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/procedure.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/procedure.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/stage.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/ndn-autoconfig/stage.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfd-autoreg.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/available-commands.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/available-commands.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/channel-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/channel-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/command-arguments.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/command-definition.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/command-definition.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/command-parser.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/command-parser.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/cs-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/cs-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/execute-command.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/execute-command.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/face-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/face-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/fib-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/fib-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/find-face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/find-face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/format-helpers.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/format-helpers.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/forwarder-general-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/forwarder-general-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/help.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/help.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/rib-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/rib-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/status-report.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/status-report.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/status.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/status.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/strategy-choice-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/NFD/tools/nfdc/strategy-choice-module.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/examples/consumer-with-timer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/examples/consumer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/examples/producer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/data.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/data.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/delegation-list.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/delegation-list.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/delegation.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/asio-fwd.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/cancel-handle.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/cancel-handle.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/cf-releaser-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/cf-string-osx.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/cf-string-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/packet-base.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/packet-base.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/detail/tag-host.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/block-helpers.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/block-helpers.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/block.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/block.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/buffer-stream.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/buffer-stream.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/buffer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/encoder.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/encoder.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/encoding-buffer-fwd.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/encoding-buffer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/estimator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/estimator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/nfd-constants.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/nfd-constants.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/tlv-nfd.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/tlv-security.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/tlv.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/encoding/tlv.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/common-pch.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/face-impl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/interest-filter-record.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/lp-field-tag.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/name-component-types.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/pending-interest.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/record-container.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/impl/registered-prefix.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-fifo.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-fifo.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-lfu.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-lfu.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-lru.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-lru.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-persistent.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage-persistent.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/ims/in-memory-storage.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/interest-filter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/interest-filter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/interest.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/interest.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/key-locator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/key-locator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/link.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/link.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/cache-policy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/cache-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/empty-value.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/field-decl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/field.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/fields.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/nack-header.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/nack-header.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/nack.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/nack.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/packet.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/packet.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/pit-token.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/pit-token.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/prefix-announcement-header.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/prefix-announcement-header.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/sequence.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/tags.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/lp/tlv.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/meta-info.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/meta-info.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/metadata-object.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/metadata-object.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/control-parameters.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/control-response.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/control-response.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/dispatcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/dispatcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/channel-status.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/channel-status.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/command-options.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/command-options.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/control-command.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/control-command.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/control-parameters.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/control-parameters.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/control-response.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/controller.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/controller.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/cs-info.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/cs-info.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-event-notification.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-event-notification.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-monitor.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-monitor.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-query-filter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-query-filter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-status.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-status.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/face-traits.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/fib-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/fib-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/forwarder-status.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/forwarder-status.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/rib-entry.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/rib-entry.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/route-flags-traits.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/status-dataset.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/status-dataset.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/strategy-choice.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/nfd/strategy-choice.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/status-dataset-context.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/mgmt/status-dataset-context.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/name-component.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/name-component.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/name.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/name.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/dns.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/dns.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/ethernet.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/ethernet.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/face-uri.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/face-uri.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/link-type-helper-osx.mm">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/link-type-helper.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/link-type-helper.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/linux-if-constants.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/linux-if-constants.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/netlink-message.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/netlink-socket.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/netlink-socket.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/network-monitor-impl-netlink.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/network-monitor-impl-netlink.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/network-monitor-impl-noop.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/network-monitor-impl-osx.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/impl/network-monitor-impl-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-address.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-address.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-interface.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-interface.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-monitor-stub.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-monitor-stub.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-monitor.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/net/network-monitor.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/prefix-announcement.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/prefix-announcement.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/command-interest-signer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/command-interest-signer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/digest-sha256.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/digest-sha256.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/impl/openssl-helper.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/impl/openssl-helper.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/impl/openssl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/key-chain.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/key-params.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/key-params.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/certificate-container.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/certificate-container.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/identity-container.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/identity-container.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/identity.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/identity.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/identity-impl.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/identity-impl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/key-impl.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/key-impl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/pib-memory.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/pib-memory.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/pib-sqlite3.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/impl/pib-sqlite3.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/key-container.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/key-container.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/key.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/key.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/pib-impl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/pib.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/pib/pib.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/safe-bag.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/safe-bag.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/security-common.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/security-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signature-sha256-with-ecdsa.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signature-sha256-with-ecdsa.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signature-sha256-with-rsa.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signature-sha256-with-rsa.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signing-helpers.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signing-helpers.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signing-info.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/signing-info.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/back-end.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/back-end.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/back-end-file.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/back-end-file.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/back-end-mem.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/back-end-mem.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/back-end-osx.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/back-end-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/key-handle-mem.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/key-handle-mem.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/key-handle-osx.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/key-handle-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/impl/key-ref-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/key-handle.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/key-handle.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/tpm.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/tpm/tpm.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/base64-decode.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/base64-decode.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/base64-encode.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/base64-encode.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/block-cipher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/block-cipher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/bool-sink.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/bool-sink.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/buffer-source.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/buffer-source.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/digest-filter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/digest-filter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/hex-decode.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/hex-decode.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/hex-encode.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/hex-encode.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/private-key.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/private-key.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/public-key.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/public-key.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/signer-filter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/signer-filter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/step-source.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/step-source.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/stream-sink.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/stream-sink.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/stream-source.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/stream-source.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/strip-space.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/strip-space.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/transform-base.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/transform-base.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/verifier-filter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/transform/verifier-filter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/additional-description.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/additional-description.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-bundle-fetcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-bundle-fetcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-cache.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-cache.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher-direct-fetch.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher-direct-fetch.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher-from-network.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher-from-network.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher-offline.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher-offline.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-fetcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-request.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-storage.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate-storage.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/certificate.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/key-chain.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/key-chain.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/trust-anchor-container.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/trust-anchor-container.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/trust-anchor-group.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/trust-anchor-group.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-callback.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-error.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-error.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-accept-all.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-command-interest.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-command-interest.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-config.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-config.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-simple-hierarchy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy-simple-hierarchy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-policy.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-state.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validation-state.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/checker.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/checker.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/filter.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/filter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/name-relation.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/name-relation.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/rule.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator-config/rule.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/v2/validator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/validator-config.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/validator-config.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/validator-null.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/validator-null.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/validity-period.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/validity-period.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/verification-helpers.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/security/verification-helpers.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/signature-info.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/signature-info.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/signature.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/signature.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/tag.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/detail/stream-transport-impl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/detail/stream-transport-with-resolver-impl.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/tcp-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/tcp-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/unix-transport.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/transport/unix-transport.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/backports.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/concepts.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/config-file.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/config-file.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/dummy-client-face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/dummy-client-face.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/exception.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/exception.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/impl/steady-timer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/indented-stream.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/indented-stream.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/io.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/io.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/logger.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/logger.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/logging.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/logging.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/nonstd/any.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/nonstd/optional.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/nonstd/variant.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/notification-stream.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/notification-subscriber.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/notification-subscriber.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/ostream-joiner.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/overload.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/random.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/random.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-backref-manager.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-backref-manager.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-backref-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-backref-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-component-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-component-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-component-set-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-component-set-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-pattern-list-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-pattern-list-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-pseudo-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-pseudo-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-repeat-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-repeat-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-top-matcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/regex/regex-top-matcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/rtt-estimator.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/rtt-estimator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/scheduler.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/scheduler.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/segment-fetcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/segment-fetcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/sha256.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/sha256.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal/connection.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal/connection.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal/emit.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal/scoped-connection.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal/scoped-connection.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/signal/signal.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/sqlite3-statement.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/sqlite3-statement.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/string-helper.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/string-helper.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/time-custom-clock.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/time-unit-test-clock.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/time-unit-test-clock.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/time.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/ndn-cxx/util/time.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/boost-test.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/identity-management-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/identity-management-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/default-can-be-prefix-0.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/default-can-be-prefix-1.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/default-can-be-prefix-unset.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/encoding-benchmark.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/face.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/network-monitor.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/scheduler-benchmark.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/integrated/timed-execute.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/make-interest-data.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/make-interest-data.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/test-home-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/boost-multi-log-formatter.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/data.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/delegation-list.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/delegation.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/detail/cancel-handle.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/detail/packet-base.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/detail/tag-host.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/dummy-validator.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/block-helpers.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/block.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/buffer-stream.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/encoder.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/encoding-buffer.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/estimator.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/nfd-constants.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/encoding/tlv.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/identity-management-time-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/ims/in-memory-storage-fifo.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/ims/in-memory-storage-lfu.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/ims/in-memory-storage-lru.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/ims/in-memory-storage-persistent.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/ims/in-memory-storage.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/interest-filter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/interest.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/key-locator.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/link.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/lp/cache-policy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/lp/nack-header.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/lp/nack.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/lp/packet.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/lp/pit-token.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/lp/prefix-announcement-header.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/meta-info.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/metadata-object.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/control-response.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/dispatcher.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/channel-status.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/command-options.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/control-command.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/control-parameters.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/controller-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/controller.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/cs-info.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/face-event-notification.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/face-query-filter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/face-status.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/fib-entry.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/forwarder-status.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/rib-entry.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/status-dataset.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/nfd/strategy-choice.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/mgmt/status-dataset-context.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/name-component.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/name.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/ndebug.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/collect-netifs.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/collect-netifs.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/dns.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/ethernet.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/face-uri.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/network-configuration-detector.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/network-configuration-detector.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/network-monitor-stub.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/net/network-monitor.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/prefix-announcement.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/command-interest-signer.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/digest-sha256.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/key-params.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/certificate-container.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/identity-container.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/identity.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/impl/identity-impl.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/impl/key-impl.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/key-container.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/key.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/pib-data-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/pib-data-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/pib-impl.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/pib/pib.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/safe-bag.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/signature-sha256-with-ecdsa.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/signature-sha256-with-rsa.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/signing-helpers.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/signing-info.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/tpm/back-end-wrapper-file.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/tpm/back-end-wrapper-mem.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/tpm/back-end-wrapper-osx.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/tpm/back-end.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/base64-decode.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/base64-encode.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/block-cipher.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/bool-sink.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/buffer-source.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/digest-filter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/hex-decode.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/hex-encode.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/private-key.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/public-key.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/signer-filter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/step-source.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/stream-sink.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/stream-source.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/strip-space.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/transform/verifier-filter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/additional-description.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/certificate-bundle-fetcher.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/certificate-cache.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/certificate-fetcher-direct-fetch.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/certificate-fetcher-from-network.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/certificate-fetcher-offline.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/certificate.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/key-chain.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/trust-anchor-container.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validation-error.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validation-policy-accept-all.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validation-policy-command-interest.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validation-policy-config.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validation-policy-simple-hierarchy.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config/checker.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config/common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config/filter.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config/name-relation.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-config/rule.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/v2/validator.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/validator-config.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/validator-null.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/validity-period.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/security/verification-helpers.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/signature-info.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/tag.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/test-home-env-saver.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/transport/tcp-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/transport/transport-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/transport/unix-transport.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/unit-test-time-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/backports.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/concepts.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/config-file.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/dummy-client-face.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/exception.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/indented-stream.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/io.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/log-filter-module.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/log-module1.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/log-module2.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/logger.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/logging.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/notification-stream.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/notification-subscriber.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/placeholders.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/placeholders2.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/random.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/regex.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/rtt-estimator.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/scheduler.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/segment-fetcher.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/sha256.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/signal.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/simple-notification.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/sqlite3-statement.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/string-helper.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/time-unit-test-clock.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/util/time.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tests/unit/version.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/cert-dump.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/cert-gen.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/cert-install.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/delete.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/export.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/get-default.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/import.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/key-gen.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/list.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/ndnsec.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/set-default.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/sign-req.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/unlock-tpm.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/util.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-cxx/tools/ndnsec/util.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/core/common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/core/version.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/boost-test.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/consumer.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/discover-version.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/pipeline-interests-aimd.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/pipeline-interests-cubic.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/pipeline-interests-fixed.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/pipeline-interests-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/chunks/producer.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/dump/ndndump.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/global-configuration.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/identity-management-fixture.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/identity-management-fixture.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/peek/ndnpeek.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/peek/ndnpoke.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/ping/client/ping.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/ping/client/statistics-collector.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/ping/integrated.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/ping/server/ping-server.t.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/test-common.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tests/test-common.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/consumer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/consumer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/data-fetcher.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/data-fetcher.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/discover-version.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/discover-version.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/options.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-adaptive.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-adaptive.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-aimd.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-aimd.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-cubic.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-cubic.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-fixed.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests-fixed.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/pipeline-interests.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/statistics-collector.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/catchunks/statistics-collector.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/putchunks/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/putchunks/producer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/chunks/putchunks/producer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dissect/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dissect/ndn-dissect.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dissect/ndn-dissect.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dump/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dump/ndndump.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/dump/ndndump.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpeek/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpeek/ndnpeek.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpeek/ndnpeek.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpoke/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpoke/ndnpoke.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/peek/ndnpoke/ndnpoke.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/ping.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/ping.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/statistics-collector.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/statistics-collector.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/tracer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/client/tracer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server/main.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server/ping-server.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server/ping-server.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server/tracer.cpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/ndn-tools/tools/ping/server/tracer.hpp">
+			<Option target="ndn"/>
+		</Unit>
+		<Unit filename="C:/Users/bhask/Desktop/ndn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
